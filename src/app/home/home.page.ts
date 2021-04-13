@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
 
 @Component({
@@ -6,10 +6,14 @@ import { ApiService } from '../api.service';
   templateUrl: './home.page.html',
   styleUrls: ['./home.page.scss'],
 })
-export class HomePage {
+export class HomePage implements OnInit {
   articles;
 
   constructor(private apiService: ApiService) { }
+
+  ngOnInit() {
+    
+  }
 
   ionViewDidEnter() {
     this.apiService.getNews().subscribe((data) => {
