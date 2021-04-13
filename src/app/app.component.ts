@@ -14,7 +14,7 @@ export class AppComponent {
     {
       title: 'About',
       url: '/about',
-      icon: 'help-circle-outline'
+      icon: 'information-circle'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
