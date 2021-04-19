@@ -1,6 +1,6 @@
 {
   "appId": "in.benjami.newsapp",
-  "appName": "News App",
+  "appName": "newsapp",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
